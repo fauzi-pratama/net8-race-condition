@@ -1,0 +1,19 @@
+﻿[*.cs]
+
+# CS4014: Because this call is not awaited, execution of the current method continues before the call is completed
+dotnet_diagnostic.CS4014.severity = none
+
+# S907: "goto" statement should not be used
+dotnet_diagnostic.S907.severity = none
+
+# IDE0059: Unnecessary assignment of a value
+dotnet_diagnostic.IDE0059.severity = none
+
+# S2583: Conditionally executed code should be reachable
+dotnet_diagnostic.S2583.severity = none
+
+# Default severity for analyzer diagnostics with category 'Major Bug'
+dotnet_analyzer_diagnostic.category-Major Bug.severity = none
+
+# S1854: Unused assignments should be removed
+dotnet_diagnostic.S1854.severity = none
